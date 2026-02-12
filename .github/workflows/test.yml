@@ -5,7 +5,8 @@ on:
     branches: [main]
 
 jobs: 
-  task 1:
+  task_1:
+    runs-on: ubuntu-latest
     steps: 
       - name: 檢查當前路徑
-        run: echo 
+        run: echo "$(pwd)"
